@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+h1, h2 {
+  color: #2a7a2a;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 4px;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #2a7a2a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d5e1d;
+}
+
+.rental-item {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
